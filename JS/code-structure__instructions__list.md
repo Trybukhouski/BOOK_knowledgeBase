@@ -6,7 +6,7 @@
   - break
   - ...
 
-# Инструкции объявления
+# Declarations
   - let
   - const
   - var
