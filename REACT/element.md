@@ -12,6 +12,9 @@
 - Жизненный цикл:
   - Создание.
   - Рендеринг в DOM-элемент.
+- Cпособы создания React-элемента:
+  - Из DOM-тега
+  - Из React-компонента
 
 # Under the hood
 - React-элемент - это простой JS-объект (не DOM-элемент).  
@@ -39,13 +42,20 @@
   - занимает мало места
 
 # Syntax
-- Создание React-элемента
+- 
+## Создание React-элемента 
+- из DOM-тега:
 
   ```
   const element = <h1>Hello, world</h1>;
   ```
+- из React-компонента:
 
-- Рендеринг React-элемента в DOM-элемент
+  ```
+  const element = <Welcome name="Алиса" />
+  ```
+
+## Рендеринг React-элемента
 
   ```
   ReactDOM.render(React-elem, DOM-elem[, callback])
