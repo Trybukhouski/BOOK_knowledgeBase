@@ -34,6 +34,7 @@
 Т.к. является обычным JS-объектом.
 
 ## Syntax >> Creation
+<<<<<<< HEAD
 Создать элемент можно двумя путями:
 - Через DOM-tag
 - Через React-компонент
@@ -43,6 +44,14 @@
   const element = <h1>Hello, world</h1>;
   ```
 ## Syntax >> Creation from React-component
+=======
+
+### Creation from DOM-tag
+  ```
+  const element = <h1>Hello, world</h1>;
+  ```
+### Creation from React-component
+>>>>>>> 79ff31d41cc22f0141a789840a70d5ed830e0103
 
   ```
   const element = <Welcome name="Алиса" />
@@ -54,6 +63,7 @@
 - Подробности в модуле "rendering" >>>
 
 ## Draft
+<<<<<<< HEAD
 - Для отображения в UI элемент надо:
   - Создать.
   - Зарендерить в DOM-элемент.
@@ -62,3 +72,9 @@
   ```
   const elem = <h1>hi</h1>
   ```
+=======
+
+- Для отображения в UI элемент надо:
+  - Создать.
+  - Зарендерить в DOM-элемент.
+>>>>>>> 79ff31d41cc22f0141a789840a70d5ed830e0103
