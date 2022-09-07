@@ -55,16 +55,29 @@
   git branch
   ```
 
-### BRANCHES >> Syntax >> Creation & Modification
+### BRANCHES >> Syntax >> Creation
 - Создание новой ветки:
 
   ```
-  git branch branch-name
+  git branch <new-branch-name>
   ```
+- Создание новой ветки и автоматический переход на нее:
+  - от HEAD
+
+  ```
+  git checkout -b <new-branch-name>
+  ```
+  - от указанной ветки
+
+  ```
+  git checkout -b ＜new-branch-name＞ ＜existing-branch＞
+  ```
+
+### BRANCHES >> Syntax >> Modification
 - Слияние изменений из другой ветки в текущую:
 
   ```
-  git merge merged-branche
+  git merge <merged-branche>
   ```
   - Объединяет ветки с сохранением истории коммитов интегрируемой ветки и создает результирующий коммит.
 - Отмена слияния (возврат в pre-merge):
@@ -84,4 +97,15 @@
 
   ```
   git checkout branch-name
+  ```
+  - в современных версиях команда позволяет переходить также и на ветки удаленного репозитория.
+# HEAD
+
+### HEAD >> About
+- HEAD — это указатель на текущий снимок в Git.
+### HEAD >> Syntax >> Main
+- Вывести историю перемещений указателя:
+
+  ```
+  git reflog
   ```
