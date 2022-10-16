@@ -1,4 +1,6 @@
 # DATA STRUCTURES
 
 ### DATA STRUCTURES >> About >> List
-- Массивы
+Список:
+- Массив
+- Матрица
