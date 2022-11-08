@@ -6,10 +6,3 @@
 ### MODULE PACK >> About >> Structure
 - `package.json`
 - `node_modules`
-
-### MODULE PACK >> Structure >> package.json
-package.json - это json-файл, который содержит основную информацию о пакете.
-
-Структура файла:
-- `name` - имя модуля. Как правило, совпадает с названием директории.
-- `version` - версия пакета.
