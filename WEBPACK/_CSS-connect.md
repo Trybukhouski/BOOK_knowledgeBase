@@ -1,7 +1,5 @@
 # \_ CSS-connect
 
-## Install & Setup
-
 1. Установить лоадеры:
    - `style-loader`
    - `css-loader`
